@@ -11,38 +11,34 @@
     }
 
     #basic-profile-info-section table {
-        width: 80%;  
+        width: 80%;
         margin: 0 auto;
     }
 
     .top-page h3 {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .menu-section a {
-        font-size: 18px;  
-        padding: 10px 15px;  
+        font-size: 18px;
+        padding: 10px 15px;
     }
 
     .overlay-text h3 {
-        font-size: 20px;  
+        font-size: 20px;
     }
 
     @media print {
-        body{
-            background-color:#fff;
+        body {
+            background-color: #fff;
         }
-        *{
+
+        * {
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
         }
-        
+
     }
-}
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', monospace;
 }
 
 html {
@@ -66,15 +62,15 @@ html {
 }
 
 #work-experience-internships-section {
-    background-color: #dad7cd; 
+    background-color: #dad7cd;
 }
 
 #programming-skills-section {
-    background-color: #a3b18a; 
+    background-color: #a3b18a;
 }
 
 #general-interests-section {
-    background-color: #dad7cd; 
+    background-color: #dad7cd;
 }
 
 #favorite-song-film-and-TV-show-section {
@@ -82,7 +78,7 @@ html {
 }
 
 #favorite-website-section {
-    background-color: #dad7cd; 
+    background-color: #dad7cd;
 }
 
 #my-projects-in-this-course-section {
@@ -103,7 +99,6 @@ html {
     position: relative;
     width: 100%;
     margin-top: -580px;
-    margin-bottom: 200px;
 }
 
 .gif-section img {
@@ -185,6 +180,7 @@ body {
 .menu-section a:hover {
     background-color: #3a5a40;
     color: white;
+    text-decoration: none;
 }
 
 .menu-section li:hover ul.dropdown {
@@ -199,3 +195,17 @@ body {
     display: none;
 }
 
+.btn-custom-green {
+    background-color: #3a5a40;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.menu-section a {
+    font-size: 16px;
+    padding: 10px 15px;
+}
